@@ -1,0 +1,53 @@
+#stockflock_wrapper {
+	/*overflow-x: scroll;*/
+}
+.brand {
+	width: auto;
+	text-align: center;
+}
+.brand-link {
+	color: #000;
+	text-decoration: none;
+}
+.brand-link:hover,
+.brand-link:focus {
+	color: #000;
+	text-decoration: none;
+}
+.brand-logo {
+	width: 25px;
+	height: auto;
+	/*display: inline-block;*/
+}
+.img-wrapper {
+	width: 120px;
+	margin: 0 auto;
+}
+.img-wrapper img {
+	float: left;
+}
+.img-wrapper p {
+	float: left;
+	font-size: 18px;
+	line-height: 1.4em;
+}
+.clearfix {
+	clear: both;
+}
+#stockflock.tablepress {
+	border: 1px solid #e0e0e0;
+}
+#stockflock.tablepress .sorting:hover, 
+#stockflock.tablepress .sorting_asc, 
+#stockflock.tablepress .sorting_desc {
+	background-color: #fc6e51;
+	color: #fff;
+}
+#stockflock.tablepress tfoot th, 
+#stockflock.tablepress thead th {
+	background-color: #fff;
+}
+
+#stockflock_filter.dataTables_filter {
+	margin-bottom: 10px;
+}
